@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body,html{
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+.navbar{
+    text-align: center;
+    background-color: #343138;
+    color: #ffffff;
+}
+.navbar h1{
+  margin-top: 0;
+  padding: 10px;
+}
+.card{
+    margin: 30px auto;
+    max-width: 646px;
+    max-height: 790px;
+    padding: 18px;
+    
+}
+.card .link-input{
+  justify-content: space-between;
+  display: flex;
+}
+
+li.list-item{
+  text-align: center !important;
+}
+
+a.brand-name.left{
+    margin: auto 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+textarea{
+  height: 250px;
+  padding: 15px;
+}
+button.dropdown-trigger{
+  margin: auto 10px;
+}
+button.waves-effect.waves-light.btn{
+  margin: 30px auto 4px;
+}
+.home-main-container .card {
+  text-align: center;
+}
